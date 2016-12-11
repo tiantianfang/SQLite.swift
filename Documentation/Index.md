@@ -174,6 +174,12 @@ dependencies: [
 ]
 ```
 
+2. Build your project:
+
+```shell
+$ swift build -Xlinker -lsqlite3
+```
+
 [Swift Package Manager]: https://swift.org/package-manager
 
 ### Manual
